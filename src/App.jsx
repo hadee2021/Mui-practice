@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Nav from './components/Nav'
 import Ch01 from './pages/Ch01'
 import Ch02 from './pages/Ch02'
+import Ch03 from './pages/Ch03'
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/ch01' element={<Ch01 />} />
         <Route path='/ch02' element={<Ch02 />} />
+        <Route path='/ch03' element={<Ch03 />} />
       </Routes>
     </div>
   )
