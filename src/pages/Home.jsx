@@ -7,6 +7,7 @@ const Home = () => {
       <div><Link to='/ch01'>ch01</Link></div>
       <div><Link to='/ch02'>ch02</Link></div>
       <div><Link to='/ch03'>ch03</Link></div>
+      <div><Link to='/ch04'>ch04</Link></div>
     </div>
   )
 }
