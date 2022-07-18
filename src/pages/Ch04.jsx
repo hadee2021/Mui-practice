@@ -8,6 +8,7 @@ const Ch04 = () => {
       <Button variant="contained">Primary</Button>
       <Button variant="contained" color="neutral">Text</Button>
       <Button variant="text" sx={{backgroundColor:'red'}}>Text</Button>
+      <Button variant="dashed">Text</Button>
     </ThemeProvider>
   )
 }

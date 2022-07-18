@@ -9,6 +9,19 @@ const theme = createTheme({
       dark: blue[200]
     },
   },
+  components: {
+    MuiButton: {
+      variants: [
+        {
+          props: { variant: 'dashed' },
+          style: {
+            border: `2px dashed ${blue[500]}`,
+            color: red[600]
+          },
+        },
+      ],
+    },
+  },
 })
 
 export default theme
